@@ -1,0 +1,26 @@
+name: pinar_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pinar=3.3
+  - scikit-image=0.19
+  - ipython
+  - ipykernel
+  - mccabe>=0.6
+  - nb_conda
+  - nb_conda_kernels
+  - pandoc
+  - sphinx>=2.0
+  - pip
+  - pip:
+    - coverage>=4.5
+    - descartes
+    - markdown
+    - myst-parser    
+    - nbformat
+    - nbsphinx
+    - pylint
+    - readthedocs-sphinx-ext>=2.1
+    - sphinx-markdown-tables
+    - sphinx-book-theme

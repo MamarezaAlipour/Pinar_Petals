@@ -1,0 +1,7 @@
+name: pinar_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pinar=3.3
+  - scikit-image=0.19
